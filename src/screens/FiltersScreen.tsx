@@ -66,7 +66,7 @@ const FiltersScreen = ({
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Available Filter / Restrictions</Text>
+      <Text style={styles.title}>Available Filter</Text>
       <FilterSwitch
         label="Gluten-free"
         value={isGlutenFree}
